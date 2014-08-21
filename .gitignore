@@ -1,0 +1,10 @@
+
+/db/*.sqlite3
+/log
+/tmp
+config/*.yml
+*.pdf
+/.bundle
+.DS_Store
+/public/system
+/doc
