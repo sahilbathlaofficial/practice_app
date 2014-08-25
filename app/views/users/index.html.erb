@@ -12,6 +12,7 @@
 
   <tbody>
     <%= link_to 'sign out', destroy_user_session_path, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <%= link_to 'posts', posts_path %>
     <% @users.each do |user| %>
       <tr>
         <td><%= user.name %></td>
@@ -26,5 +27,3 @@
 </table>
 
 <br>
-
-<%= link_to 'New User', new_user_path %>
